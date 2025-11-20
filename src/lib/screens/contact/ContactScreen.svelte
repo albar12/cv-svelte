@@ -112,9 +112,7 @@
 				</div>
 
 				<button
-					class="flex justify-center rounded-2xl p-2 text-white hover:bg-green-600 {loading
-						? 'bg-green-500'
-						: 'bg-green-600'}"
+					class="flex justify-center rounded-2xl bg-green-500 p-2 text-white hover:bg-green-600"
 					on:click={() => sendEmail()}
 				>
 					{#if loading}
