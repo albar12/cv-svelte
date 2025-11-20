@@ -20,7 +20,9 @@
 	style="background-color: {colors.darkTeal};"
 	class="fixed top-0 left-0 flex w-full items-center justify-between p-6 lg:px-8"
 >
-	<a href="#home" class="text-xl font-semibold text-white hover:text-gray-300">Alif Akbar</a>
+	<a href="#home" class="text-xl font-semibold text-white hover:text-gray-300 lg:hidden"
+		>Alif Akbar</a
+	>
 
 	<div class="flex lg:hidden">
 		<button
